@@ -3,12 +3,12 @@ entries:
   book-project:
   - apiVersion: v2
     appVersion: v3
-    created: "2025-07-23T13:42:34.817189986+06:00"
+    created: "2025-07-23T15:50:40.666254312+06:00"
     description: A Helm chart for Kubernetes
     digest: 49c9f0b4453892ae6e649516ffcbb046e2108688e1bd447f6e0ff596ae640050
     name: book-project
     type: application
     urls:
-    - https://Tutul-dhar.github.io/helm-chart-index/book-project-0.1.0.tgz
+    - https://tutul-dhar.github.io/helm-chart-index/public-charts/book-project-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-23T13:42:34.816805707+06:00"
+generated: "2025-07-23T15:50:40.665567961+06:00"
