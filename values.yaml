@@ -24,7 +24,7 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  port: 8080  # ✅ Service port set to 8080
+  port: 8080  
 
 ingress:
   enabled: false
@@ -42,12 +42,12 @@ resources: {}
 livenessProbe:
   httpGet:
     path: /
-    port: 8080  # ✅ Use numeric port instead of "http"
+    port: 8080 
 
 readinessProbe:
   httpGet:
     path: /
-    port: 8080  # ✅ Use numeric port instead of "http"
+    port: 8080  
 
 autoscaling:
   enabled: false
